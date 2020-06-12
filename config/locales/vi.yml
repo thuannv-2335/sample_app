@@ -1,0 +1,17 @@
+vi:
+  en: "Tiếng Anh"
+  vi: "Tiếng Việt"
+  pages:
+    home:
+      head: "Trang chủ"
+      content: "Đây là trang chủ về"
+      intro: "Chương trình mẫu"
+      title: "Trang chủ"
+      ruby_rails: "Chương trình học Rails"
+    help:
+      title: "Trợ giúp"
+      ruby_rails: "Chương trình học Rails"
+      help: "Trợ giúp"
+      get_help: "Để xem hướng dẫn "
+      get_help_rails: "Để xem  Ruby on Rails Tutorial tại "
+      help_page_rails: "Trang trợ giúp Rails Tutorial "

@@ -1,0 +1,17 @@
+en:
+  en: "English"
+  vi: "Vietnamese"
+  pages:
+    home:
+      head: "Pages Home"
+      content: "This is the home page for the"
+      intro: "Sample application"
+      title: "Home"
+      ruby_rails: "Ruby on Rails"
+    help:
+      title: "Help"
+      ruby_rails: "Ruby on Rails"
+      help: "Help"
+      get_help: "To get help on this sample app, see the"
+      get_help_rails: "Get help on the Ruby on Rails Tutorial at the"
+      help_page_rails: "Rails Tutorial help page"
