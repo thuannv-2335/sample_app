@@ -7,11 +7,13 @@ en:
       title: "Ruby on Rails Tutorial Sample App"
   static_pages:
     home:
+      register: "Sign up now"
       head: "Pages Home"
       content: "This is the home page for the"
       intro: "Sample application"
       title: "Home"
       ruby_rails: "Ruby on Rails"
+      alt_rails: "Rails logo"
     help:
       title: "Help"
       ruby_rails: "Ruby on Rails"
@@ -33,3 +35,19 @@ en:
       get_help: "To get help on this sample app, see the"
       get_help_rails: "Get help on the Ruby on Rails Tutorial at the"
       help_page_rails: "Rails Tutorial help page"
+  shared:
+    header:
+      sample_app: "Sample App"
+      home: "Home"
+      help: "Help"
+      login: "Login"
+    footer:
+      about: "About"
+      contact: "Contact"
+      news: "News"
+      ruby_rails: "Ruby on Rails Tutorial"
+      michael: "Michael Hartl"
+  users:
+    new:
+      sign_up: "Sign up"
+      user_title: "This will be a signup page for new users."
