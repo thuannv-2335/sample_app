@@ -1,2 +1,10 @@
 ruby_rails_help: "http://www.railstutorial.org/help"
 ruby_rails_book: "http://www.railstutorial.org/book"
+email_regex: !ruby/regexp /\A[\w+\-.]+@[a-z\d\-.]+\.[a-z]+\z/i
+user:
+  name:
+    max_length: 50
+  emails:
+    max_length: 255
+  password:
+    min_length: 6
