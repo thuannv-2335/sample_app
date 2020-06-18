@@ -14,6 +14,7 @@ vi:
       title: "Trang chủ"
       ruby_rails: "Chương trình học Rails"
       alt_rails: "Rails logo"
+      not_found_user: "Không tìm thấy user"
     help:
       title: "Trợ giúp"
       ruby_rails: "Chương trình học Rails"
@@ -46,8 +47,34 @@ vi:
       news: "Tin tức"
       ruby_rails: "Ruby on Rails Tutorial"
       michael: "Michael Hartl"
+    error_messages:
+      error: "lỗi"
   users:
+    not_found_user: "Không tìm thấy người dùng"
     new:
       sign_up: "Đăng kí"
       user_title: "Đây là trang đăng kí cho thành viên mới"
-
+      name: "Họ và tên"
+      password: "Mật khẩu"
+      password_confirmation: "Xác nhận mật khẩu"
+    create:
+      sign_up_success: "Bạn đã đăng ký tài khoản thành công"
+      sign_up_fail: "Bạn đã đăng ký tài khoản thất bại"
+  activerecord:
+    errors:
+      models:
+        user:
+          attributes:
+            name:
+              blank: "không được để trống"
+              too_long: "tối đa 50 kí tự"
+            email:
+              blank: "không được để trống"
+              too_long: "tối đa 255 kí tự"
+              invalid: "không hợp lệ"
+              taken: "đã có sẵn"
+            password:
+              blank: "không được để trống"
+              too_short: "ít nhất 6 kí tự"
+            password_confirmation:
+              confirmation: "mật khẩu không khớp"

@@ -47,7 +47,36 @@ en:
       news: "News"
       ruby_rails: "Ruby on Rails Tutorial"
       michael: "Michael Hartl"
+    error_messages:
+      error: "error"
   users:
+    not_found_user: "Not found user"
     new:
       sign_up: "Sign up"
       user_title: "This will be a signup page for new users."
+      name: "Name"
+      password: "Password"
+      password_confirmation: "Confirmation"
+      signup_success: "You registered successfully"
+      signup_fail: "You registered unsuccessfully"
+    create:
+      sign_up_success: "You have signed up successfully"
+      sign_up_fail: "You have signed up failed"
+  activerecord:
+    errors:
+      models:
+        user:
+          attributes:
+            name:
+              blank: "can't be blank"
+              too_long: "maximum of 50 characters"
+            email:
+              blank: "can't be blank"
+              too_long: "maximum of 255 characters"
+              invalid: "is invalid"
+              taken: "has already been taken"
+            password:
+              blank: "can't be blank"
+              too_short: "at least 6 characters"
+            password_confirmation:
+              confirmation: "do not match"
