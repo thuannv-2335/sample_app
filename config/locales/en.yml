@@ -41,6 +41,11 @@ en:
       home: "Home"
       help: "Help"
       login: "Login"
+      account: "Account"
+      profile: "Profile"
+      settings: "Settings"
+      log_out: "Log out"
+      users: "Users"
     footer:
       about: "About"
       contact: "Contact"
@@ -62,6 +67,12 @@ en:
     create:
       sign_up_success: "You have signed up successfully"
       sign_up_fail: "You have signed up failed"
+  sessions:
+    invalid: "invalid email or password combination"
+    new:
+      log_in: "Log in"
+      password: "password"
+      email: "Email"
   activerecord:
     errors:
       models:

@@ -5,6 +5,7 @@ ruby "2.7.1"
 
 gem "rails", "~> 6.0.3", ">= 6.0.3.1"
 gem "mysql2"
+gem "jquery-rails", "4.3.1"
 gem "bcrypt", "3.1.11"
 gem "rails-i18n"
 gem "bootstrap-sass", "3.4.1"

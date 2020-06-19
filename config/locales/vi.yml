@@ -41,6 +41,11 @@ vi:
       home: "Trang chủ"
       help: "Trợ giúp"
       login: "Đăng nhập"
+      account: "Tài khoản"
+      profile: "Thông tin"
+      settings: "Cài đặt"
+      log_out: "Đăng xuất"
+      users: "Người dùng"
     footer:
       about: "Về chúng tôi"
       contact: "Liên hệ"
@@ -60,6 +65,12 @@ vi:
     create:
       sign_up_success: "Bạn đã đăng ký tài khoản thành công"
       sign_up_fail: "Bạn đã đăng ký tài khoản thất bại"
+  sessions:
+    invalid: "Thông tin email và password không đúng"
+    new:
+      log_in: "Đăng nhập"
+      password: "Mật khẩu"
+      email: "Tài khoản"
   activerecord:
     errors:
       models:
