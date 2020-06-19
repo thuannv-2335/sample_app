@@ -73,6 +73,8 @@ en:
       log_in: "Log in"
       password: "password"
       email: "Email"
+      remember_me: "Remember me"
+      remember: "Remember me in this computer"
   activerecord:
     errors:
       models:
