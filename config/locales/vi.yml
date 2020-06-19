@@ -71,6 +71,8 @@ vi:
       log_in: "Đăng nhập"
       password: "Mật khẩu"
       email: "Tài khoản"
+      remember_me: "Nhớ tài khoản"
+      remember: "Lưu tài khoản trên máy tính"
   activerecord:
     errors:
       models:
