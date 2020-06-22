@@ -1,11 +1,13 @@
 class UsersController < ApplicationController
-  def show
-    @user = User.find_by id: params[:id]
-    return if @user
+  before_action :logged_in_user, except: [:new, :create]
+  before_action :find_user, except: [:new, :create, :index]
+  before_action :correct_user, only: [:edit, :update]
 
-    flash[:danger] = t(".not_found_user")
-    redirect_to root_path
+  def index
+    @users = User.page(params[:page]).per Settings.user.per_page
   end
+
+  def show; end
 
   def new
     @user = User.new
@@ -23,9 +25,51 @@ class UsersController < ApplicationController
     end
   end
 
+  def edit; end
+
+  def update
+    if @user.update_attributes user_params
+      flash[:success] = t".updated_profile_succsess"
+      redirect_to @user
+    else
+      flash[:danger] = t".updated_profile_fail"
+      render :edit
+    end
+  end
+
+  def destroy
+    if @user.destroy
+      flash[:success] = t ".user_deleted"
+      redirect_to users_path
+    else
+      flash[:danger] = t ".user_delete_fail"
+      redirect_to root_path
+    end
+  end
+
   private
 
   def user_params
     params.require(:user).permit User::PERMIT_ATTRIBUTES
+  end
+
+  def find_user
+    @user = User.find_by id: params[:id]
+    return if @user
+    flash[:danger] = t".not_found_user"
+    redirect_to root_path
+  end
+
+  def logged_in_user
+    return if logged_in?
+    store_location
+    flash[:danger] = t".check_login"
+    redirect_to login_path
+  end
+
+  def correct_user
+    return if current_user? @user
+    flash[:danger] = t".correct_user"
+    redirect_to root_path
   end
 end

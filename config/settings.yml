@@ -8,3 +8,4 @@ user:
     max_length: 255
   password:
     min_length: 6
+  per_page: 5
