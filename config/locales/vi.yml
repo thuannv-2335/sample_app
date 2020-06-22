@@ -55,16 +55,38 @@ vi:
     error_messages:
       error: "lỗi"
   users:
+    updated_profile_succsess: "Cập nhật thông tin tài khoản thành công"
     not_found_user: "Không tìm thấy người dùng"
+    user_deleted: "Xoá người dùng thành công"
+    user_delete_fail: "Xóa người dùng không thành công"
+    check_login: "Vui lòng đăng nhập"
+    correct_user: "Không thể hiển thị"
+    update:
+      updated_profile_fail: "Cập nhật thông tin không thành công"
+    form:
+      name: "Họ và tên"
+      email: "Email"
+      password: "Mật khẩu"
+      password_confirmation: "Xác nhận mật khẩu"
     new:
       sign_up: "Đăng kí"
       user_title: "Đây là trang đăng kí cho thành viên mới"
       name: "Họ và tên"
       password: "Mật khẩu"
       password_confirmation: "Xác nhận mật khẩu"
+      create_account: "Tạo tài khoản"
     create:
       sign_up_success: "Bạn đã đăng ký tài khoản thành công"
       sign_up_fail: "Bạn đã đăng ký tài khoản thất bại"
+    index:
+      delete: "Xóa"
+      confirm_delete: "Xác nhận xóa"
+      all_users: "Tổng người dùng"
+    edit:
+      edit_user: "Chỉnh sửa người dùng"
+      save_edit: "Lưu thay đổi"
+      update_profile: "Cập nhật thông tin của bạn"
+      change_avatar: "Thay đổi"
   sessions:
     invalid: "Thông tin email và password không đúng"
     new:
@@ -91,3 +113,10 @@ vi:
               too_short: "ít nhất 6 kí tự"
             password_confirmation:
               confirmation: "mật khẩu không khớp"
+  views:
+    pagination:
+      first: "« ĐẦU"
+      last: "CUỐI »"
+      previous: "‹ TRƯỚC"
+      next: "SAU ›"
+      truncate: "…"

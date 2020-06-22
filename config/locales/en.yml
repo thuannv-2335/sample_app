@@ -56,6 +56,18 @@ en:
       error: "error"
   users:
     not_found_user: "Not found user"
+    updated_profile_succsess: "Updated Profile!"
+    user_deleted: "User deleted"
+    user_delete_fail: "User delete fail"
+    check_login: "Please login"
+    correct_user: "Don't show"
+    update:
+      updated_profile_fail: "Update Profile Fail"
+    form:
+      name: "Name"
+      email: "Email"
+      password: "Password"
+      password_confirmation: "Password Confirmation"
     new:
       sign_up: "Sign up"
       user_title: "This will be a signup page for new users."
@@ -64,9 +76,19 @@ en:
       password_confirmation: "Confirmation"
       signup_success: "You registered successfully"
       signup_fail: "You registered unsuccessfully"
+      create_account: "Create my account"
     create:
       sign_up_success: "You have signed up successfully"
       sign_up_fail: "You have signed up failed"
+    index:
+      delete: "Delete"
+      confirm_delete: "You sure!"
+      all_users: "All users"
+    edit:
+      edit_user: "Edit user"
+      save_edit: "Save changes"
+      update_profile: "Update user profile"
+      change_avatar: "change"
   sessions:
     invalid: "invalid email or password combination"
     new:
@@ -93,3 +115,10 @@ en:
               too_short: "at least 6 characters"
             password_confirmation:
               confirmation: "do not match"
+  views:
+    pagination:
+      first: "« FIRST"
+      last: "LAST »"
+      previous: "‹ PREV"
+      next: "NEXT ›"
+      truncate: "…"
