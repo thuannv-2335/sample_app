@@ -22,6 +22,16 @@ vi:
       get_help: "Để xem hướng dẫn "
       get_help_rails: "Để xem  Ruby on Rails Tutorial tại "
       help_page_rails: "Trang trợ giúp Rails Tutorial "
+  user_mailer:
+    subject_mail: "Kích hoạt tài khoản"
+    account_activation:
+      title: "Chương trình mẫu"
+      hi: "Xin chào"
+      content: "Chào mừng bạn đến với Sample App! Vui lòng click vào link dưới đây để kích hoạt tài khoản !"
+      active_button: "Kích hoạt"
+  account_activations:
+    invalid_active_link: "Link kích hoạt không chính xác"
+    actived_account: "Tài khoản đã được kích hoạt"
   pages:
     home:
       head: "Trang chủ"
@@ -63,6 +73,8 @@ vi:
     correct_user: "Không thể hiển thị"
     update:
       updated_profile_fail: "Cập nhật thông tin không thành công"
+      check_login: "Vui lòng đăng nhập"
+      correct_user: "Không thể hiển thị"
     form:
       name: "Họ và tên"
       email: "Email"
@@ -76,6 +88,7 @@ vi:
       password_confirmation: "Xác nhận mật khẩu"
       create_account: "Tạo tài khoản"
     create:
+      check_active_link: "Vui lòng kiểm tra email để kích hoạt email của bạn"
       sign_up_success: "Bạn đã đăng ký tài khoản thành công"
       sign_up_fail: "Bạn đã đăng ký tài khoản thất bại"
     index:
@@ -89,6 +102,7 @@ vi:
       change_avatar: "Thay đổi"
   sessions:
     invalid: "Thông tin email và password không đúng"
+    account_invalid: "Tài khoản chưa được kích hoạt. Vui lòng kiểm tra email để lấy link kích hoạt"
     new:
       log_in: "Đăng nhập"
       password: "Mật khẩu"

@@ -21,6 +21,16 @@ en:
       get_help: "To get help on this sample app, see the"
       get_help_rails: "Get help on the Ruby on Rails Tutorial at the"
       help_page_rails: "Rails Tutorial help page"
+  user_mailer:
+    subject_mail: "Account activation"
+    account_activation:
+      title: "Sample app"
+      hi: "Hi"
+      content: "Welcome to the Sample App! Click on the link below to activate your account:"
+      active_button: "Activate"
+  account_activations:
+    invalid_active_link: "Invalid activation link"
+    actived_account: "Actived account !"
   pages:
     home:
       head: "Pages Home"
@@ -63,6 +73,8 @@ en:
     correct_user: "Don't show"
     update:
       updated_profile_fail: "Update Profile Fail"
+      check_login: "Please login"
+      correct_user: "Don't show"
     form:
       name: "Name"
       email: "Email"
@@ -78,6 +90,7 @@ en:
       signup_fail: "You registered unsuccessfully"
       create_account: "Create my account"
     create:
+      check_active_link: "Please check your email to activate your account."
       sign_up_success: "You have signed up successfully"
       sign_up_fail: "You have signed up failed"
     index:
@@ -91,6 +104,7 @@ en:
       change_avatar: "change"
   sessions:
     invalid: "invalid email or password combination"
+    account_invalid: "Account not activated. Check your email for the activation link."
     new:
       log_in: "Log in"
       password: "password"
