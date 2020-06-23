@@ -5,6 +5,7 @@ ruby "2.7.1"
 
 gem "rails", "~> 6.0.3", ">= 6.0.3.1"
 gem "mysql2"
+gem "figaro"
 gem "kaminari"
 gem "bootstrap-kaminari-views"
 gem "faker", "1.7.3"
