@@ -29,9 +29,34 @@ vi:
       hi: "Xin chào"
       content: "Chào mừng bạn đến với Sample App! Vui lòng click vào link dưới đây để kích hoạt tài khoản !"
       active_button: "Kích hoạt"
+    password_reset:
+       subject_password_reset: "Lấy lại mật khẩu"
+       hi: "Xin chào"
+       guildline_reset: "Để lấy lại mật khẩu vui lòng click vào đường dẫn bên dưới: "
+       reset_pass: "Lấy lại mật khẩu"
   account_activations:
     invalid_active_link: "Link kích hoạt không chính xác"
     actived_account: "Tài khoản đã được kích hoạt"
+  password_resets:
+    create:
+      email_not_found: "Không tìm thấy địa chỉ email"
+      email_reset_send: "Hướng dẫn lấy lại mật khẩu đã được gửi vào email"
+    new:
+      title: "Quên mật khẩu"
+      forgot_pass: "Quên mật khẩu"
+      email: "Email"
+      submit_reset: "Xác nhận"
+      password_reset_exprired: "Link lấy lại mật khẩu đã hết hạn"
+    edit:
+      title: "Cập nhật mật khẩu"
+      pass: "Mật khẩu"
+      pass_confirm: "Xác nhận mật khẩu"
+      submit_reset: "Cập nhật mật khẩu"
+      not_found_user: "Không tìm thấy người dùng"
+    update:
+      update_password_reset: "Không được để trống"
+      update_password_success: "Lấy lại mật khẩu thành công"
+      update_password_fail: "Cập nhật mật khẩu không thành công"
   pages:
     home:
       head: "Trang chủ"
@@ -104,6 +129,9 @@ vi:
     invalid: "Thông tin email và password không đúng"
     account_invalid: "Tài khoản chưa được kích hoạt. Vui lòng kiểm tra email để lấy link kích hoạt"
     new:
+      forgot_password: "Quên mật khẩu"
+      new_user?: "Người dùng mới ?"
+      sign_up_now!: "Đăng ký ngay"
       log_in: "Đăng nhập"
       password: "Mật khẩu"
       email: "Tài khoản"
