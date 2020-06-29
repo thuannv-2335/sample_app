@@ -2,6 +2,12 @@ vi:
   en: "Tiếng Anh"
   vi: "Tiếng Việt"
   base_title: "Chương trình mẫu về Ruby On Rails"
+  follow:
+    unfollow: "Bỏ theo dõi"
+    follow: "Theo dõi"
+    following: "Đang theo dõi"
+    followers: "Người theo dõi"
+    follow_fail: "Lỗi"
   layouts:
     application:
       title: "Chương trình học Ruby on rails"

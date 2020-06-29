@@ -55,13 +55,6 @@ class UsersController < ApplicationController
     params.require(:user).permit User::PERMIT_ATTRIBUTES
   end
 
-  def find_user
-    @user = User.find_by id: params[:id]
-    return if @user
-    flash[:danger] = t".not_found_user"
-    redirect_to root_path
-  end
-
   def correct_user
     return if current_user? @user
     flash[:danger] = t".correct_user"
