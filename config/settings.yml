@@ -10,3 +10,10 @@ user:
     min_length: 6
   per_page: 5
   expired_hour: 2
+  gravatar_size: 50
+micropost:
+  content_max: 200
+  size_post: 50
+  size_less: 5
+  image_accept: "image/jpeg,image/gif,image/png"
+  resize_to_limit: 500
