@@ -2,6 +2,12 @@ en:
   en: "English"
   vi: "Vietnamese"
   base_title: "Ruby on Rails Tutorial Sample App"
+  follow:
+    unfollow: "Unfollow"
+    follow: "Follow"
+    following: "Following"
+    followers: "Followers"
+    follow_fail: "Error"
   layouts:
     application:
       title: "Ruby on Rails Tutorial Sample App"
